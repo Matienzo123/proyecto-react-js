@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+}
+
+html {
+  /* Sin congiguracion el rem vale: 1rem = 16px */
+  font-size: 62.5%; /* Para que 1 rem = 10px */
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.primary {
+  color: white;
+}
+
+.secondary {
+  color: whitesmoke;
+}
+
+.disabled {
+  color: green;
+}
+
+h1 {
+  font-family: "Chinese Rocks Rg", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+p {
+  width: 90%;
+  margin: auto;
+  font-size: 2.5rem;
+}
+
+.btn {
+  width: 25%;
+  font-size: 2rem;
+  font-style: bold;
+  background-color: #cb8719;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(255, 230, 0);
+}
+
+ul {
+  list-style: none;
+}

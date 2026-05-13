@@ -1,0 +1,41 @@
+.itemlist-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* HEADER centrado */
+.itemlist-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.itemlist-header h1 {
+  /* font-size: 2rem; */
+  color: white;
+  margin-bottom: 5px;
+}
+
+.itemlist-header p {
+  color: #aaa;
+  /* font-size: 1rem; */
+}
+
+/* CONTENIDO centrado al 80% */
+.itemlist-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .itemlist-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .itemlist-header p {
+    font-size: 0.9rem;
+  }
+
+  .itemlist-content {
+    width: 95%; /* más aire en mobile */
+  }
+}

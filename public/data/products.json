@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Red Dead Revolver",
+    "version": "Standard Edition",
+    "description": "Primer título de la saga desarrollado por Rockstar Games, enfocado en la historia de Red Harlow, un cazarrecompensas en busca de venganza por la muerte de su familia. A diferencia de los juegos posteriores, tiene una estructura más lineal, con niveles cerrados y un enfoque fuerte en la acción arcade. Introduce mecánicas como el “Dead Eye”, que permite ralentizar el tiempo para disparos precisos, y presenta una versión más clásica y exagerada del Lejano Oeste.",
+    "price": 9.99,
+    "image": "/img/red-dead-revolver.jpg",
+    "category": "Full Game",
+    "modo": "History"
+  },
+  {
+    "id": 2,
+    "name": "Red Dead Redemption",
+    "version": "Standard Edition",
+    "description": "En Red Dead Redemption, seguís a John Marston, un ex forajido obligado por el gobierno a capturar a los miembros de su antigua banda. Este título marca el salto de la saga al mundo abierto, ofreciendo un mapa amplio, lleno de actividades, eventos dinámicos y personajes memorables. Destaca por su narrativa madura, que explora temas como la redención, la ley y el fin del Viejo Oeste, combinando acción, exploración y decisiones morales.",
+    "price": 39.99,
+    "image": "/img/red-dead-redemption.jpg",
+    "category": "Full Game",
+    "modo": "History"
+  },
+  {
+    "id": 3,
+    "name": "Red Dead Redemption",
+    "version": "Game of the Year Edition",
+    "description": "Red Dead Redemption - Game of the Years Edition  incluye el juego base junto con todo el contenido descargable lanzado posteriormente, como misiones adicionales, armas, atuendos y modos de juego. Esta edición ofrece una experiencia completa del título, permitiendo a los jugadores disfrutar de todas las expansiones y mejoras que se añadieron después del lanzamiento original. Es ideal para quienes buscan sumergirse por completo en el mundo de Red Dead Redemption sin tener que adquirir cada contenido por separado.",
+    "price": 49.99,
+    "image": "/img/red-dead-redemption-and-undead-nightmare.jpg",
+    "category": "Full Game",
+    "modo": "History"
+  },
+  {
+    "id": 4,
+    "name": "Red Dead Redemption",
+    "version": "Undead Nightmare",
+    "description": "Red Dead Redemption: Undead Nightmare es una expansión independiente que reimagina el mundo del juego original en un contexto apocalíptico. Una misteriosa plaga convierte a la población en zombies, y John Marston debe encontrar una cura mientras sobrevive a hordas de enemigos y criaturas sobrenaturales. Mantiene la base jugable del original, pero suma un tono más oscuro y fantástico, con nuevas misiones, armas y desafíos.",
+    "price": 19.99,
+    "image": "/img/undead-nightmare-extension.jpg",
+    "category": "Extension",
+    "modo": "History"
+  },
+  {
+    "id": 5,
+    "name": "Red Dead Redemption II",
+    "version": "Standard Edition",
+    "description": "Red Dead Redemption 2 es una precuela que sigue la historia de Arthur Morgan, miembro de la banda de Dutch van der Linde. El juego ofrece un nivel de detalle excepcional, con un mundo abierto vivo donde cada acción tiene consecuencias. Se destacan su narrativa profunda, el desarrollo de personajes y sistemas complejos como el vínculo con el caballo, la supervivencia y las decisiones que afectan la historia. Es considerado uno de los juegos más ambiciosos en cuanto a realismo e inmersión.",
+    "price": 59.99,
+    "image": "/img/red-dead-redemption-II.jpg",
+    "category": "Full Game",
+    "modo": "History"
+  },
+  {
+    "id": 6,
+    "name": "Red Dead Redemption II",
+    "version": "Ultimate Edition",
+    "description": "Red Dead Redemption 2 - Ultimate Edition incluye el juego base junto con todo el contenido descargable lanzado posteriormente, como misiones adicionales, armas, atuendos y modos de juego. Esta edición ofrece una experiencia completa del título, permitiendo a los jugadores disfrutar de todas las expansiones y mejoras que se añadieron después del lanzamiento original. Es ideal para quienes buscan sumergirse por completo en el mundo de Red Dead Redemption sin tener que adquirir cada contenido por separado.",
+    "price": 99.99,
+    "image": "/img/red-dead-redemption-II-ultimate-edition.jpg",
+    "category": "Full Game",
+    "modo": "History / Online"
+  },
+  {
+    "id": 7,
+    "name": "Red Dead Online",
+    "version": "Read Dead Online",
+    "description": "Red Dead Online es la experiencia multijugador basada en el mundo de Red Dead Redemption 2. Permite crear tu propio personaje y recorrer el Oeste junto a otros jugadores, realizando misiones, formando grupos, comerciando, cazando o enfrentándose en distintos modos competitivos. A diferencia del modo historia, acá la progresión depende de tu estilo de juego y de cómo decidís interactuar con el mundo y otros usuarios.",
+    "price": 19.99,
+    "image": "/img/red-dead-online.jpg",
+    "category": "Extension",
+    "modo": "Online"
+  }
+]

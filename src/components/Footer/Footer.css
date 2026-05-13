@@ -1,0 +1,56 @@
+/* FOOTER BASE */
+.footer {
+  padding: 1.5rem;
+  margin-top: auto;
+  border-top: 1px solid rgb(54, 54, 54);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background-color: #111; */
+}
+
+/* TEXTO */
+.footer p {
+  font-size: 1.6rem;
+  margin-left: 2rem;
+}
+
+/* CONTENEDOR ICONOS */
+.footer div {
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 2rem;
+}
+
+/* ICONOS */
+.footer div a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.footer div a:hover {
+  color: #cb8719;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .footer div {
+    margin: 0;
+  }
+}

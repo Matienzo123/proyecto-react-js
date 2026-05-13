@@ -1,0 +1,12 @@
+.contenedor-productos {
+  display: flex; /* Usamos flexbox para el contenedor de productos */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea */
+  gap: 2rem; /* Espacio entre los elementos */
+  margin: 2rem; /* Margen alrededor del contenedor */
+}
+
+.contenedor-productos p {
+  margin: auto;
+  padding: 1rem;
+}
