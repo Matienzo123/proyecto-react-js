@@ -1,19 +1,35 @@
+:root {
+  --bg: #030303;
+  --surface: #141414;
+  --surface-strong: #1b1b1b;
+  --surface-soft: #1f1f1f;
+  --text: #f2f2f2;
+  --text-muted: #b7b7b7;
+  --border: rgba(255, 255, 255, 0.08);
+  --accent: #cb8719;
+  --accent-soft: #f53c4e;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+  --radius: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 2rem;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-html {
-  /* Sin congiguracion el rem vale: 1rem = 16px */
-  font-size: 62.5%; /* Para que 1 rem = 10px */
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Inter, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 
 #root {
@@ -26,45 +42,48 @@ main {
   flex: 1;
 }
 
-.primary {
-  color: white;
-}
-
-.secondary {
-  color: whitesmoke;
-}
-
-.disabled {
-  color: green;
-}
-
-h1 {
+h1,
+h2 {
   font-family: "Chinese Rocks Rg", sans-serif;
-  font-size: 5rem;
   text-align: center;
-  justify-content: center;
-  margin: 1rem 0;
+  margin: 1.8rem 0 1rem;
 }
 
 p {
-  width: 90%;
-  margin: auto;
-  font-size: 2.5rem;
+  max-width: 65ch;
+  margin: 0 auto 1.6rem;
+  font-size: 1.6rem;
+  color: var(--text-muted);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
 }
 
 .btn {
-  width: 25%;
-  font-size: 2rem;
-  font-style: bold;
-  background-color: #cb8719;
-  color: black;
-  padding: 1rem;
-  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: var(--accent);
+  color: #111;
+  padding: 1rem 1.4rem;
+  border: none;
+  border-radius: 0.8rem;
   cursor: pointer;
+  transition:
+    background-color 0.25s ease,
+    transform 0.25s ease;
 }
 
 .btn:hover {
-  background-color: rgb(255, 230, 0);
+  background-color: var(--accent-soft);
+  transform: translateY(-1px);
 }
 
 ul {

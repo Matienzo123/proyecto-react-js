@@ -1,32 +1,44 @@
 .header {
-  background-color: black; /* Color fondo */
-
-  display: flex; /* Usamos flexbox para el header (formato linea)*/
-  justify-content: space-between; /* Espacio entre los elementos */
-  align-items: center; /* Centrado vertical */
-
-  border-bottom: 1px solid rgb(54, 54, 54); /* Linea inferior */
-
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   position: relative;
   z-index: 20;
 }
 
 .header-logo {
-  display: flex; /* Usamos flexbox para el logo y el texto (formato linea) */
-  align-items: center; /* Centrado vertical */
-  justify-content: left; /* Centrado horizontal */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex: 1 1 auto;
 }
 
 .header-logo img {
-  width: 4rem; /* Ancho de la imagen */
-  height: auto; /* La altura se ajusta automáticamente */
-  margin-left: 1.5rem; /* Espaciado interno */
+  width: 4rem;
+  height: auto;
 }
 
 .header-logo a {
-  font-family: "Chinese Rocks Rg", sans-serif; /* Fuente personalizada */
-  font-size: 4rem; /* 40px */
-  text-decoration: none; /* Quita el subrayado */
-  color: white; /* Color del texto */
-  margin-left: 1.5rem; /* Margen izquierdo */
+  font-family: "Chinese Rocks Rg", sans-serif;
+  font-size: clamp(2.4rem, 3vw, 4rem);
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .header-logo {
+    flex: 0 1 auto;
+    justify-content: flex-start;
+  }
 }

@@ -1,41 +1,44 @@
 .itemlist-container {
   width: 100%;
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 /* HEADER centrado */
 .itemlist-header {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 .itemlist-header h1 {
-  /* font-size: 2rem; */
-  color: white;
-  margin-bottom: 5px;
+  color: var(--text);
+  margin-bottom: 0.6rem;
+  font-size: clamp(2.2rem, 3vw, 3rem);
 }
 
 .itemlist-header p {
-  color: #aaa;
-  /* font-size: 1rem; */
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin: 0 auto;
+  max-width: 64ch;
 }
 
 /* CONTENIDO centrado al 80% */
 .itemlist-content {
-  width: 80%;
+  width: min(95%, 1200px);
   margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .itemlist-header h1 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   .itemlist-header p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .itemlist-content {
-    width: 95%; /* más aire en mobile */
+    width: 100%;
+    padding: 0 1rem;
   }
 }

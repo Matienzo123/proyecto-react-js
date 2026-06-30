@@ -1,12 +1,23 @@
 .contenedor-productos {
-  display: flex; /* Usamos flexbox para el contenedor de productos */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea */
-  gap: 2rem; /* Espacio entre los elementos */
-  margin: 2rem; /* Margen alrededor del contenedor */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin: 2rem auto;
+  width: min(96%, 1200px);
+  justify-items: center;
 }
 
 .contenedor-productos p {
   margin: auto;
   padding: 1rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 768px) {
+  .contenedor-productos {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1.5rem auto;
+    width: min(100%, 100%);
+  }
 }
