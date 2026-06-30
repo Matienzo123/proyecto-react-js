@@ -17,7 +17,7 @@
 
 .itemlist-header p {
   color: var(--text-muted);
-  font-size: 1rem;
+  font-size: 1.75rem;
   margin: 0 auto;
   max-width: 64ch;
 }
@@ -30,11 +30,11 @@
 
 @media (max-width: 768px) {
   .itemlist-header h1 {
-    font-size: 1.9rem;
+    font-size: 2.5rem;
   }
 
   .itemlist-header p {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
   }
 
   .itemlist-content {

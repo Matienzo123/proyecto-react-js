@@ -25,7 +25,7 @@ export const ItemDetail = ({ item }) => {
                     <p className="detail-category">Categoría: {item.category}</p>
                     <p className="p-price">Precio: USD {item.price}</p>
 
-                    <button className="btn-buy" onClick={() => addItem(item)}>
+                    <button className="btn" onClick={() => addItem(item)}>
                         Agregar al carrito
                     </button>
                 </div>
